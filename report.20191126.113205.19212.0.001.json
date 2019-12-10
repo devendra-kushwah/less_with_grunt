@@ -1,0 +1,511 @@
+
+{
+  "header": {
+    "reportVersion": 1,
+    "event": "Allocation failed - JavaScript heap out of memory",
+    "trigger": "FatalError",
+    "filename": "report.20191126.113205.19212.0.001.json",
+    "dumpEventTime": "2019-11-26T11:32:05Z",
+    "dumpEventTimeStamp": "1574748125539",
+    "processId": 19212,
+    "cwd": "D:\\devendra\\grunt",
+    "commandLine": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:\\Users\\deepshikha.garg\\AppData\\Roaming\\npm/node_modules/grunt-cli/bin/grunt",
+      "imagemin",
+      "watch"
+    ],
+    "nodejsVersion": "v12.13.0",
+    "wordSize": 64,
+    "arch": "x64",
+    "platform": "win32",
+    "componentVersions": {
+      "node": "12.13.0",
+      "v8": "7.7.299.13-node.12",
+      "uv": "1.32.0",
+      "zlib": "1.2.11",
+      "brotli": "1.0.7",
+      "ares": "1.15.0",
+      "modules": "72",
+      "nghttp2": "1.39.2",
+      "napi": "5",
+      "llhttp": "1.1.4",
+      "http_parser": "2.8.0",
+      "openssl": "1.1.1d",
+      "cldr": "35.1",
+      "icu": "64.2",
+      "tz": "2019a",
+      "unicode": "12.1"
+    },
+    "release": {
+      "name": "node",
+      "lts": "Erbium",
+      "headersUrl": "https://nodejs.org/download/release/v12.13.0/node-v12.13.0-headers.tar.gz",
+      "sourceUrl": "https://nodejs.org/download/release/v12.13.0/node-v12.13.0.tar.gz",
+      "libUrl": "https://nodejs.org/download/release/v12.13.0/win-x64/node.lib"
+    },
+    "osName": "Windows_NT",
+    "osRelease": "10.0.17134",
+    "osVersion": "Windows 10 Pro",
+    "osMachine": "x86_64",
+    "cpus": [
+      {
+        "model": "Intel(R) Core(TM) i5-5300U CPU @ 2.30GHz",
+        "speed": 2295,
+        "user": 1520656,
+        "nice": 0,
+        "sys": 2615390,
+        "idle": 7174187,
+        "irq": 88390
+      },
+      {
+        "model": "Intel(R) Core(TM) i5-5300U CPU @ 2.30GHz",
+        "speed": 2295,
+        "user": 1556421,
+        "nice": 0,
+        "sys": 2453796,
+        "idle": 7299765,
+        "irq": 22000
+      },
+      {
+        "model": "Intel(R) Core(TM) i5-5300U CPU @ 2.30GHz",
+        "speed": 2295,
+        "user": 1695750,
+        "nice": 0,
+        "sys": 2521656,
+        "idle": 7092578,
+        "irq": 11328
+      },
+      {
+        "model": "Intel(R) Core(TM) i5-5300U CPU @ 2.30GHz",
+        "speed": 2295,
+        "user": 1724984,
+        "nice": 0,
+        "sys": 2656890,
+        "idle": 6928109,
+        "irq": 11312
+      }
+    ],
+    "host": "KELLGGNLPTP0432"
+  },
+  "javascriptStack": {
+    "message": "No stack.",
+    "stack": [
+      "Unavailable."
+    ]
+  },
+  "nativeStack": [
+    {
+      "pc": "0x00007ff61b1e1389",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff61b1e57cc",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff61b1e4778",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff61b2d332b",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff61bad6f4e",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff61babef91",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff61b98c85c",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff61b994961",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff61b989fc3",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff61b988794",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff61b9a9a65",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff61b716239",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff61bf02c6d",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff61be7e2a2",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff61be7dd3f",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff61bf63a90",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff61be827fc",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff61be827fc",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff61be827fc",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff61be827fc",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff61be827fc",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff61be827fc",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff61be827fc",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff61be827fc",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff61be827fc",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff61bed1a62",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff61be9f2cb",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff61be7fc9c",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff61b9e4fd0",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff61b9e50c3",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff61b9e54a2",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff61b9c8cd5",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff61ba8b150",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff61ba8a697",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff61ba8a9d8",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff61ba8a7de",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff61bf02d6d",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff61be827fc",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff61be7fdb1",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff61be7f99c",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff61b9e4f43",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff61b9e48c6",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff61bab5b3b",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff61b34c79d",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff61b34c51e",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff61b32b352",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff61b37c994",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff61b37940c",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff61b29b892",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff61b2f9263",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff61b1b666c",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff61bfb5d58",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ffa63404034",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ffa63783691",
+      "symbol": ""
+    }
+  ],
+  "javascriptHeap": {
+    "totalMemory": 29331456,
+    "totalCommittedMemory": 29331456,
+    "usedMemory": 25622752,
+    "availableMemory": 2172960488,
+    "memoryLimit": 2197815296,
+    "heapSpaces": {
+      "read_only_space": {
+        "memorySize": 262144,
+        "committedMemory": 262144,
+        "capacity": 261872,
+        "used": 32296,
+        "available": 229576
+      },
+      "new_space": {
+        "memorySize": 1048576,
+        "committedMemory": 1048576,
+        "capacity": 1047488,
+        "used": 1047464,
+        "available": 24
+      },
+      "old_space": {
+        "memorySize": 22917120,
+        "committedMemory": 22917120,
+        "capacity": 22878648,
+        "used": 20138304,
+        "available": 2740344
+      },
+      "code_space": {
+        "memorySize": 688128,
+        "committedMemory": 688128,
+        "capacity": 519936,
+        "used": 433024,
+        "available": 86912
+      },
+      "map_space": {
+        "memorySize": 1314816,
+        "committedMemory": 1314816,
+        "capacity": 1311344,
+        "used": 939040,
+        "available": 372304
+      },
+      "large_object_space": {
+        "memorySize": 3051520,
+        "committedMemory": 3051520,
+        "capacity": 3029072,
+        "used": 3029072,
+        "available": 0
+      },
+      "code_large_object_space": {
+        "memorySize": 49152,
+        "committedMemory": 49152,
+        "capacity": 3552,
+        "used": 3552,
+        "available": 0
+      },
+      "new_large_object_space": {
+        "memorySize": 0,
+        "committedMemory": 0,
+        "capacity": 1047488,
+        "used": 0,
+        "available": 1047488
+      }
+    }
+  },
+  "resourceUsage": {
+    "userCpuSeconds": 14.187,
+    "kernelCpuSeconds": 42.734,
+    "cpuConsumptionPercent": 0.0925394,
+    "maxRss": 68534272,
+    "pageFaults": {
+      "IORequired": 81075,
+      "IONotRequired": 0
+    },
+    "fsActivity": {
+      "reads": 2490,
+      "writes": 330
+    }
+  },
+  "libuv": [
+  ],
+  "environmentVariables": {
+    "": "::=::\\",
+    "": "C:=C:\\",
+    "": "D:=D:\\devendra\\grunt",
+    "ACLOCAL_PATH": "C:\\Program Files\\Git\\mingw64\\share\\aclocal;C:\\Program Files\\Git\\usr\\share\\aclocal",
+    "ALLUSERSPROFILE": "C:\\ProgramData",
+    "APPDATA": "C:\\Users\\deepshikha.garg\\AppData\\Roaming",
+    "COMMONPROGRAMFILES": "C:\\Program Files\\Common Files",
+    "COMPUTERNAME": "KELLGGNLPTP0432",
+    "COMSPEC": "C:\\WINDOWS\\system32\\cmd.exe",
+    "CONFIG_SITE": "C:/Program Files/Git/mingw64/etc/config.site",
+    "CommonProgramFiles(x86)": "C:\\Program Files (x86)\\Common Files",
+    "CommonProgramW6432": "C:\\Program Files\\Common Files",
+    "DISPLAY": "needs-to-be-defined",
+    "DriverData": "C:\\Windows\\System32\\Drivers\\DriverData",
+    "Drush": "C:\\Users\\deepshikha.garg\\AppData\\Roaming\\Composer\\vendor\\drush\\drush",
+    "EXEPATH": "C:\\Program Files\\Git",
+    "FPS_BROWSER_APP_PROFILE_STRING": "Internet Explorer",
+    "FPS_BROWSER_USER_PROFILE_STRING": "Default",
+    "HOME": "C:\\Users\\deepshikha.garg",
+    "HOMEDRIVE": "C:",
+    "HOMEPATH": "\\Users\\deepshikha.garg",
+    "HOSTNAME": "KELLGGNLPTP0432",
+    "INFOPATH": "C:\\Program Files\\Git\\usr\\local\\info;C:\\Program Files\\Git\\usr\\share\\info;C:\\Program Files\\Git\\usr\\info;C:\\Program Files\\Git\\share\\info",
+    "LANG": "en_US.UTF-8",
+    "LOCALAPPDATA": "C:\\Users\\deepshikha.garg\\AppData\\Local",
+    "LOGONSERVER": "\\\\KELLGGNLPTP0432",
+    "MANPATH": "C:\\Program Files\\Git\\mingw64\\local\\man;C:\\Program Files\\Git\\mingw64\\share\\man;C:\\Program Files\\Git\\usr\\local\\man;C:\\Program Files\\Git\\usr\\share\\man;C:\\Program Files\\Git\\usr\\man;C:\\Program Files\\Git\\share\\man",
+    "MINGW_CHOST": "x86_64-w64-mingw32",
+    "MINGW_PACKAGE_PREFIX": "mingw-w64-x86_64",
+    "MINGW_PREFIX": "C:/Program Files/Git/mingw64",
+    "MSYSTEM": "MINGW64",
+    "MSYSTEM_CARCH": "x86_64",
+    "MSYSTEM_CHOST": "x86_64-w64-mingw32",
+    "MSYSTEM_PREFIX": "C:/Program Files/Git/mingw64",
+    "NUMBER_OF_PROCESSORS": "4",
+    "ORIGINAL_PATH": "C:\\Program Files\\Git\\mingw64\\bin;C:\\Program Files\\Git\\usr\\bin;C:\\Users\\deepshikha.garg\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0;C:\\Program Files\\Git\\cmd;C:\\xampp\\php;C:\\composer;C:\\WINDOWS\\System32\\OpenSSH;C:\\Program Files\\nodejs;C:\\Ruby26-x64\\bin;C:\\Users\\deepshikha.garg\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\deepshikha.garg\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\deepshikha.garg\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\deepshikha.garg\\AppData\\Local\\atom\\bin;C:\\Users\\deepshikha.garg\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\deepshikha.garg\\AppData\\Roaming\\npm",
+    "ORIGINAL_TEMP": "C:/Users/DEEPSH~1.GAR/AppData/Local/Temp",
+    "ORIGINAL_TMP": "C:/Users/DEEPSH~1.GAR/AppData/Local/Temp",
+    "OS": "Windows_NT",
+    "OneDrive": "C:\\Users\\deepshikha.garg\\OneDrive",
+    "PATH": "C:\\Users\\deepshikha.garg\\bin;C:\\Program Files\\Git\\mingw64\\bin;C:\\Program Files\\Git\\usr\\local\\bin;C:\\Program Files\\Git\\usr\\bin;C:\\Program Files\\Git\\usr\\bin;C:\\Program Files\\Git\\mingw64\\bin;C:\\Program Files\\Git\\usr\\bin;C:\\Users\\deepshikha.garg\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0;C:\\Program Files\\Git\\cmd;C:\\xampp\\php;C:\\composer;C:\\WINDOWS\\System32\\OpenSSH;C:\\Program Files\\nodejs;C:\\Ruby26-x64\\bin;C:\\Users\\deepshikha.garg\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\deepshikha.garg\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\deepshikha.garg\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\deepshikha.garg\\AppData\\Local\\atom\\bin;C:\\Users\\deepshikha.garg\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\deepshikha.garg\\AppData\\Roaming\\npm;C:\\Program Files\\Git\\usr\\bin\\vendor_perl;C:\\Program Files\\Git\\usr\\bin\\core_perl",
+    "PATHEXT": ".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.RB;.RBW",
+    "PKG_CONFIG_PATH": "C:\\Program Files\\Git\\mingw64\\lib\\pkgconfig;C:\\Program Files\\Git\\mingw64\\share\\pkgconfig",
+    "PLINK_PROTOCOL": "ssh",
+    "PROCESSOR_ARCHITECTURE": "AMD64",
+    "PROCESSOR_IDENTIFIER": "Intel64 Family 6 Model 61 Stepping 4, GenuineIntel",
+    "PROCESSOR_LEVEL": "6",
+    "PROCESSOR_REVISION": "3d04",
+    "PROGRAMFILES": "C:\\Program Files",
+    "PSModulePath": "C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules",
+    "PUBLIC": "C:\\Users\\Public",
+    "PWD": "D:/devendra/grunt",
+    "ProgramData": "C:\\ProgramData",
+    "ProgramFiles(x86)": "C:\\Program Files (x86)",
+    "ProgramW6432": "C:\\Program Files",
+    "SESSIONNAME": "Console",
+    "SHELL": "C:\\Program Files\\Git\\usr\\bin\\bash.exe",
+    "SHLVL": "2",
+    "SSH_ASKPASS": "C:/Program Files/Git/mingw64/libexec/git-core/git-gui--askpass",
+    "SYSTEMDRIVE": "C:",
+    "SYSTEMROOT": "C:\\WINDOWS",
+    "TEMP": "C:\\Users\\DEEPSH~1.GAR\\AppData\\Local\\Temp",
+    "TERM": "xterm",
+    "TMP": "C:\\Users\\DEEPSH~1.GAR\\AppData\\Local\\Temp",
+    "TMPDIR": "C:\\Users\\DEEPSH~1.GAR\\AppData\\Local\\Temp",
+    "USERDOMAIN": "KELLGGNLPTP0432",
+    "USERDOMAIN_ROAMINGPROFILE": "KELLGGNLPTP0432",
+    "USERNAME": "devendra.kumar1",
+    "USERPROFILE": "C:\\Users\\deepshikha.garg",
+    "WINDIR": "C:\\WINDOWS",
+    "_": "C:/Program Files/nodejs/node"
+  },
+  "sharedObjects": [
+    "C:\\Program Files\\nodejs\\node.exe",
+    "C:\\WINDOWS\\SYSTEM32\\ntdll.dll",
+    "C:\\WINDOWS\\System32\\KERNEL32.DLL",
+    "C:\\WINDOWS\\System32\\KERNELBASE.dll",
+    "C:\\WINDOWS\\System32\\WS2_32.dll",
+    "C:\\WINDOWS\\System32\\RPCRT4.dll",
+    "C:\\WINDOWS\\System32\\ADVAPI32.dll",
+    "C:\\WINDOWS\\System32\\msvcrt.dll",
+    "C:\\WINDOWS\\System32\\sechost.dll",
+    "C:\\WINDOWS\\System32\\USER32.dll",
+    "C:\\WINDOWS\\System32\\win32u.dll",
+    "C:\\WINDOWS\\System32\\GDI32.dll",
+    "C:\\WINDOWS\\System32\\gdi32full.dll",
+    "C:\\WINDOWS\\System32\\msvcp_win.dll",
+    "C:\\WINDOWS\\SYSTEM32\\dbghelp.dll",
+    "C:\\WINDOWS\\System32\\ucrtbase.dll",
+    "C:\\WINDOWS\\System32\\PSAPI.DLL",
+    "C:\\WINDOWS\\System32\\CRYPT32.dll",
+    "C:\\WINDOWS\\System32\\MSASN1.dll",
+    "C:\\WINDOWS\\SYSTEM32\\USERENV.dll",
+    "C:\\WINDOWS\\System32\\profapi.dll",
+    "C:\\WINDOWS\\SYSTEM32\\bcrypt.dll",
+    "C:\\WINDOWS\\SYSTEM32\\IPHLPAPI.DLL",
+    "C:\\WINDOWS\\SYSTEM32\\WINMM.dll",
+    "C:\\WINDOWS\\SYSTEM32\\WINMMBASE.dll",
+    "C:\\WINDOWS\\System32\\cfgmgr32.dll",
+    "C:\\WINDOWS\\System32\\IMM32.DLL",
+    "C:\\Windows\\system32\\tmumh\\20019\\AddOn\\8.0.0.1056\\TmUmEvt64.dll",
+    "C:\\WINDOWS\\System32\\SHLWAPI.dll",
+    "C:\\WINDOWS\\System32\\combase.dll",
+    "C:\\WINDOWS\\System32\\bcryptPrimitives.dll",
+    "C:\\Windows\\system32\\tmumh\\20019\\TmMon\\2.7.3.1020\\tmmon64.dll",
+    "C:\\WINDOWS\\system32\\sfc.dll",
+    "C:\\WINDOWS\\SYSTEM32\\sfc_os.DLL",
+    "C:\\WINDOWS\\system32\\Version.dll",
+    "C:\\WINDOWS\\System32\\SETUPAPI.dll",
+    "C:\\WINDOWS\\System32\\powrprof.dll",
+    "C:\\WINDOWS\\system32\\uxtheme.dll",
+    "C:\\WINDOWS\\system32\\mswsock.dll",
+    "C:\\WINDOWS\\System32\\kernel.appcore.dll"
+  ]
+}
