@@ -1,0 +1,51 @@
+@media @midium{
+.secondary-navbar {
+    li a {
+        .font-size(16px);
+        padding: 20px 40px;
+     }
+ }
+ .summery {
+    width: 70%;
+    order: 1;
+    .box-shadow(2px 2px 4px rgba(0,0,0,0.4));
+    padding: 30px 65px 30px 50px;
+    .border-radius(0 40px 0 40px);
+ }
+ .profile {
+    width: 30%;
+    order: 2;
+    padding: 0 0 0 70px;
+    background: transparent;
+    border-radius: 0;
+    .rounded-image {
+        .position(absolute, 50%, null, null, -57px);
+        .transform(translateY(-50%));
+        .flex(@columns: 0 0 115px);
+        width: 115px;
+        height: 115px;
+    }
+    .name {
+        margin-left: 0;
+        span {
+          color: @light_green_color;
+        }
+    }
+ }
+ .teachers-list li {
+    margin-bottom: 20px;
+    &:nth-child(even){
+        .summery {
+          .flex-order(@order: 2);
+          padding: 30px 50px 30px 65px;
+        }
+        .profile {
+          .flex-order(@order: 1);
+          padding: 0 70px 0 0;
+          .rounded-image {
+            .position(absolute, null, -57px, null,  auto);
+          }
+        }
+      }
+ }
+}

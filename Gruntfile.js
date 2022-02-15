@@ -10,7 +10,7 @@ module.exports = function(grunt) {
           optimization: 2
         },
         files: {
-          "css/main.css": "less/main.less" // destination file and source file
+          "./assets/style/css/main.css": "./assets/style/less/main.less" // destination file and source file
         }
       }
     },
@@ -24,9 +24,9 @@ module.exports = function(grunt) {
         files: [
           {
             expand: true,
-            cwd: 'src',
+            cwd: './assets/dist/src',
             src: ['**/*.jpg','**/*.jpeg'],
-            dest: 'images/',
+            dest: './assets/images/',
             ext: '.jpg'
           }
         ]
@@ -38,9 +38,9 @@ module.exports = function(grunt) {
         files: [
           {
             expand: true,
-            cwd: 'src/',
+            cwd: './assets/dist/src/',
             src: ['**/*.png'],
-            dest: 'images/',
+            dest: './assets/images/',
             ext: '.png'
           }
         ]
@@ -48,7 +48,7 @@ module.exports = function(grunt) {
   },
     watch: {
       styles: {
-        files: ['less/**/*.less'], // which files to watch
+        files: ['./assets/style/less/*'], // which files to watch
         tasks: ['less'],
         options: {
           nospawn: true
@@ -59,5 +59,6 @@ module.exports = function(grunt) {
 
   grunt.registerTask('default', ['less', 'imagemin', 'watch']);
   grunt.loadNpmTasks('grunt-contrib-imagemin');
+  grunt.loadNpmTasks('grunt-contrib-watch');
 
 };
